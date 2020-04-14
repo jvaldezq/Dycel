@@ -1,3 +1,84 @@
 .p-1 {
-  padding: 1rem;
+    padding: 1rem;
+}
+
+.back {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 2rem;
+}
+
+.back p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+.back ul li {
+    color: #fff;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (min-width: 769px) {
+
+    .best-offer-right-content em, .best-offer-right-content p {
+        color: #ffffff;
+    }
+
+    .best-offer-right-content h3 {
+        font-weight: bold;
+    }
+
+    .best-offer-right-content h3 {
+        color: #1a1d39;
+    }
+}
+
+#proyectos {
+    padding-bottom: 4rem;
+}
+
+.card {
+    padding: 3rem;
+    cursor: pointer;
+}
+
+.card .card-body {
+    text-align: left;
+    padding: 3rem 4rem;
+}
+
+.card ul li {
+    color: #FFFFFF;
+}
+
+.card ul {
+    list-style-type: disc;
+}
+
+.card-primary {
+    background-color: #1a1d39;
+}
+
+.card-second {
+    background-color: #58b684;
+}
+
+.card-third {
+    background-color: #d72238;
+}
+
+.flip-container {
+    cursor: pointer;
+}
+
+.services-grid {
+    padding: 3rem 0;
 }

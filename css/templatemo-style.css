@@ -559,15 +559,7 @@ p {
   background-position: center center;
 }
 
-.services .col-md-3 {
-  padding-left: 0px;
-  padding-right: 0px;
-}
 
-.services .col-md-3 {
-  padding-right: 0px;
-  padding-left: 0px;
-}
 
 .flip-container {
   perspective: 1000;
@@ -604,7 +596,6 @@ p {
   line-height: 140px;
   text-align: center;
   background-color: transparent;
-  border: 1px solid #fff;
   border-radius: 50%;
   margin: 30px auto;
 }
@@ -798,7 +789,6 @@ p {
 }
 
 footer {
-  height: 80px;
   margin-top: 10px;
   background-color: #bfd8d2;
   text-align: center;
@@ -991,10 +981,6 @@ footer p em {
     font-size: 15px;
   }
 
-  .services {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
 
   .contact-us .col-md-8 {
     margin-top: 0px;
@@ -1018,11 +1004,6 @@ footer p em {
     height: 600px;
     padding-top: 60px;
     padding-bottom: 60px;
-  }
-
-  footer {
-    margin-right: 10px;
-    margin-left: 10px;
   }
 
   footer p {
