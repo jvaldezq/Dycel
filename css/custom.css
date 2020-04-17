@@ -6,8 +6,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
-    padding: 2rem;
+    align-content: flex-start;
+    text-align: left;
+    padding: 2rem 4rem;
 }
 
 .back p {
@@ -18,12 +19,16 @@
     padding: 0;
 }
 
+.back ul {
+    list-style: circle;
+}
+
 .back ul li {
     color: #fff;
     font-size: 16px;
     line-height: 22px;
     margin: 0;
-    padding: 0;
+    padding: 0.3rem 0;
 }
 
 @media only screen and (min-width: 769px) {
@@ -37,9 +42,14 @@
     }
 
     .best-offer-right-content h3 {
-        color: #1a1d39;
+        font-size: 25px;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 5px;
     }
 }
+
 
 #proyectos {
     padding-bottom: 4rem;

@@ -103,5 +103,3 @@ jQuery(document).ready(function($) {
 
 
 });
-
-
